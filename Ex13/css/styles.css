@@ -1,0 +1,35 @@
+table,
+tr,
+td,
+th {
+  border-collapse: collapse;
+  border-style: ridge;
+  text-align: center;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+div {
+  text-align: center;
+  font-weight: bold;
+}
+.roja {
+  color: red;
+}
+
+#celda1 {
+  background-color: greenyellow;
+}
+
+#celda2 {
+  text-align: left;
+  background-color: aqua;
+}
+
+#celda6 {
+  background-color: pink;
+  text-align: right;
+  vertical-align: bottom;
+}
