@@ -1,29 +1,44 @@
 tr,
 td,
 th {
-  border: 1px aqua;
-  border-collapse: collapse;
+  border: 2px aqua;
+  border-spacing: 0;
   border-style: inset;
 }
 
 table {
-  /* border: 1px solid aqua; */
   border-style: outset;
-  border-collapse: collapse;
+  border-spacing: 0;
+  border-width: 3px;
+  border-top-color: white;
+  border-left-color: white;
 }
 
 th {
   background-color: green;
   color: aquamarine;
 }
-
-.uno {
+tr:nth-child(even) {
   background-color: aquamarine;
 }
-.dos {
+
+tr:nth-child(odd) {
   background-color: lightsteelblue;
 }
 
 .centrar {
   text-align: center;
+}
+
+#a {
+  width: fit-content;
+  border: 1px solid aqua;
+  border-right: none;
+}
+
+#b {
+  width: fit-content;
+  border: 1px solid aqua;
+  border-right: 2px solid aqua;
+  border-bottom: none;
 }

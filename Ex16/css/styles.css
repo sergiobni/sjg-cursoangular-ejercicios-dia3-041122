@@ -1,0 +1,22 @@
+table,
+tr,
+td,
+th {
+  border-style: outset;
+  text-align: center;
+  color: brown;
+}
+
+table {
+  background-image: url(../assets/istockphoto-1198380858-170667a.jpg);
+}
+
+#verde {
+  background-color: rgb(9, 87, 9);
+}
+.naranja {
+  background-color: rgb(236, 170, 47);
+}
+.amarillo {
+  background-color: rgb(242, 242, 31);
+}
