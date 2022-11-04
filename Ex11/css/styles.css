@@ -1,9 +1,15 @@
-table,
 tr,
 td,
 th {
-  border: 1px solid aqua;
+  border: 1px aqua;
+  border-collapse: collapse;
+  border-style: inset;
+}
+
+table {
+  /* border: 1px solid aqua; */
   border-style: outset;
+  border-collapse: collapse;
 }
 
 th {
@@ -16,4 +22,8 @@ th {
 }
 .dos {
   background-color: lightsteelblue;
+}
+
+.centrar {
+  text-align: center;
 }
