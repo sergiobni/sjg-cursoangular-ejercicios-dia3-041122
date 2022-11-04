@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(198, 117, 18);
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid green;
+  border-collapse: collapse;
+}
+
+ol {
+  list-style-image: url(../assets/416385_apple_gadget_mac_icon.png);
+}
