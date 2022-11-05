@@ -1,13 +1,14 @@
-.desempleo {
+.tabla {
   border: 1px solid #000000;
   padding: 1px;
-  width: 1em;
-  word-break: break-all;
-  white-space: nowrap;
 }
-.desempleo th {
+.tabla th {
   border: 1px solid #000000;
 }
-.desempleo td {
+.tabla td {
   border: 1px solid #000000;
+}
+.negrita {
+  font-weight: bold;
+  text-align: center;
 }
