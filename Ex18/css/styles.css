@@ -1,0 +1,16 @@
+.mario {
+  height: 110px;
+  width: 250px;
+  border: 3px solid rgb(183, 108, 236);
+  margin-bottom: 30px;
+  background: url(../assets/f02.png) left bottom no-repeat,
+    url(../assets/f03.png) top repeat-x, url(../assets/f01.png) bottom repeat-x;
+  background-color: rgb(0, 172, 206);
+}
+
+#marcorojo {
+  height: 400px;
+  width: 450px;
+  border: 5px solid red;
+  margin-left: 30px;
+}
